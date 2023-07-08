@@ -1,0 +1,77 @@
+/* global css */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p,a,button{
+    margin: 0;
+    padding: 0;
+}
+/* header css start */
+header{
+    background-image: url("../images/banner/banner1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 200px 0px;
+}
+.my-thoughts{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.thoughts-content{
+   text-align: right;
+   width: 500px;
+   padding-right: 100px;
+
+}
+.thougths-heading{
+    color: var(--dark-01, #151414);
+    font-size: 65px;
+    font-weight: 700;
+}
+.tink-content{
+    color: var(--dark-02, #444343);
+    font-size: 16px;
+    padding: 20px 0px;
+}
+.contact-btn{
+    border-radius: 5px;
+    background: #F15B22;
+    padding: 15px 50px;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+/* failour-content */
+.failour-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 150px 0px;
+}
+.failous-item{
+   
+}
+.failous-item{
+    max-width: 400px;
+}
+.failour-heading{
+    color: #151414;
+    font-size: 40px;
+}
+.failour-para{
+    color:#444343;
+    font-size: 16px;
+    padding: 30px 0px;
+}
+.failour-list{
+    list-style: none;
+    color:#444343;
+    font-size: 16px;
+}
+.failour-list span{
+    color: #16D887
+}
