@@ -106,3 +106,25 @@ header{
     font-size: 25px;
     font-weight: 500;
 }
+.call-me-container{
+    width: 1200px;
+    padding: 100px 0px;
+    margin: 0 auto;
+    background-image: url("../images/gradient3.png"), url("../images/watch.png");
+    background-repeat: no-repeat;
+}
+.call-me-content{
+    margin-left: 40px;
+}
+.call-me-title{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.call-btn{
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+}
