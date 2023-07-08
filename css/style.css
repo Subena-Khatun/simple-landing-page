@@ -51,10 +51,10 @@ header{
     justify-content: space-around;
     align-items: center;
     padding: 150px 0px;
+    width: 1200px;
+    margin: 0 auto;
 }
-.failous-item{
-   
-}
+
 .failous-item{
     max-width: 400px;
 }
@@ -74,4 +74,35 @@ header{
 }
 .failour-list span{
     color: #16D887
+}
+
+/* plan area */
+.plan-container{
+    padding-bottom: 50px;
+}
+.plan-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+.my-plan-head{
+    text-align: center;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+.plan-item-title{
+    color:  #151414;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 15px 0px;
+}
+.plan-item-text{
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
 }
