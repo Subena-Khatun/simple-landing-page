@@ -8,6 +8,14 @@ h1,h2,h3,h4,h5,h6,p,a,button{
     margin: 0;
     padding: 0;
 }
+.globe-container{
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0px;
+}
 /* header css start */
 header{
     background-image: url("../images/banner/banner1.png");
@@ -25,7 +33,6 @@ header{
    text-align: right;
    width: 500px;
    padding-right: 100px;
-
 }
 .thougths-heading{
     color: var(--dark-01, #151414);
@@ -46,15 +53,6 @@ header{
     font-size: 20px;
 }
 /* failour-content */
-.failour-content{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 150px 0px;
-    width: 1200px;
-    margin: 0 auto;
-}
-
 .failous-item{
     max-width: 400px;
 }
@@ -75,25 +73,20 @@ header{
 .failour-list span{
     color: #16D887
 }
-
 /* plan area */
 .plan-container{
-    padding-bottom: 50px;
+   padding: 100px 0px;
 }
 .plan-content{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    padding: 0px;
     text-align: center;
-    width: 1200px;
-    margin: 0 auto;
 }
 .my-plan-head{
     text-align: center;
     color: #151414;
     font-size: 40px;
     font-weight: 700;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 .plan-item-title{
     color:  #151414;
@@ -107,7 +100,7 @@ header{
     font-weight: 500;
 }
 .call-me-container{
-    width: 1200px;
+    width: 1100px;
     padding: 100px 0px;
     margin: 0 auto;
     background-image: url("../images/gradient3.png"), url("../images/watch.png");
@@ -127,4 +120,36 @@ header{
     font-size: 20px;
     font-weight: 600;
     background-color: white;
+}
+/* footer css */
+.footer-content{
+    align-items: center;
+    color: #ffffff;
+}
+footer{
+    background: #151414;
+}
+.footer-title{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+.footer-text{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    width: 480px;
+    padding: 20px 0px;
+}
+.footer-form  input{
+    display: block;
+    padding: 15px 25px;
+    margin: 20px 0px;
+}
+.footer-social-icon{
+    padding-top: 30px;
+}
+.footer-social-icon li{
+    display: inline-block;
+    margin-right: 10px;
 }
